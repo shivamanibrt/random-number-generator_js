@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mochiy Pop P One", sans-serif;
+    font-family: "Raleway", sans-serif;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 1.5;
+    margin: 10%;
+    /* height: 70vh; */
+    /* width: 60vw; */
+}
+.container {
+    /* margin-top: 10%; */
+    padding: 2% 2%;
+    height: 70vh;
+    width: 60vw;
+}
+.heading {
+    background-color: #b91647d0;
+    display: block;
+    font-size: 2rem;
+    padding: 2%;
+    color: white;
+}
+.again {
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: rgba(235, 157, 13, 0.801);
+    border: 0px;
+    padding: 2%;
+    color: white;
+    margin-bottom: 5px;
+}
+.again:hover {
+    background-color: #ec0047d0;
+    transition: background-colour 3s ease-in;
+}
+.input-field {
+    background-color: wheat;
+    padding: 5%;
+    /* position: relative; */
+}
+.secret-number {
+    font-size: 30px;
+}
+.input {
+    font-size: 25px;
+    text-align: center;
+    padding: 2%;
+    /* display: block; */
+}
+.sumbit {
+    font-size: 20px;
+    border: 0;
+    background-color: tomato;
+    padding: 2%;
+    color: white;
+}
+.sumbit:hover,
+.sumbit:active {
+    background-color: rgb(233, 60, 30);
+}
+.message {
+    background-color: #b91647d0;
+    display: block;
+    font-size: 2rem;
+    padding: 1%;
+    color: white;
+}

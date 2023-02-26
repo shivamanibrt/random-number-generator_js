@@ -1,0 +1,27 @@
+/* Big tablet to 1200px (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+}
+
+/* smalltabletto big tablet : from 768 to 1023px  */
+@media only screen and (max-width: 1023px) {
+}
+
+/* smallphonesto small tablets from: 418px to 768px */
+@media only screen and (max-width: 767px) {
+    .input {
+        font-size: 20px;
+        text-align: center;
+        padding: 2%;
+        /* display: block; */
+    }
+}
+
+/* smallphonesto small tablets from: 0 to 418px */
+@media only screen and (max-width: 418px) {
+    .input {
+        font-size: 18px;
+        text-align: center;
+        padding: 2%;
+        /* display: block; */
+    }
+}
